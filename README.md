@@ -93,7 +93,7 @@ The steps involved in making first commit to a GitHub repository are as follows:
 
 1. Copy the repository URL.
 In your terminal, run:
-git clone https://github.com/username/repository-name.git
+`git clone https://github.com/username/repository-name.git`
 
 2. Navigate into the cloned directory using:
 cd repository-name
