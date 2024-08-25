@@ -96,22 +96,22 @@ In your terminal, run:
 `git clone https://github.com/username/repository-name.git`
 
 2. Navigate into the cloned directory using:
-cd repository-name
+`cd repository-name`
 
 3. Make Changes:
 Add or modify files in the repository folder.
 
 4. Stage the Changes:
 Add the files you’ve modified to the staging area using:
-git add .
+`git add .`
 
 5. Create a Commit:
 Commit the staged changes with a descriptive message: 
-Example: git commit -m "Initial commit with project setup"
+Example: `git commit -m "Initial commit with project setup"`
 
 6. Push to GitHub:
 Push your commit to the remote repository on GitHub using:
-git push origin main
+`git push origin main`
 
 **Commits:** are snapshots of your project at a specific point in time. Each commit records the changes made to the files, along with a message describing what was done.
 
@@ -135,24 +135,24 @@ Branching is an important feature for collaborative development on GitHub becaus
 ### Process of Creating, Using, and Merging Branches
 
 1. Create a new branch off the main branch using:
-git checkout -b feature-branch-name
+`git checkout -b feature-branch-name`
 This creates and switches you to the new branch.
 
 2. Make changes in the new branch and tage and commit your changes as you work:
-git add .
-git commit -m "Add feature or fix description"
+`git add .`
+`git commit -m "Add feature or fix description"`
 
 3. Merging a Branch: Once the work on the branch is complete and tested, merge it back into the main branch:
 - First, switch to the main branch:
-git checkout main
+`git checkout main`
 
 - Merge the feature branch:
-git merge feature-branch-name
+`git merge feature-branch-name`
 
 4 Resolve Conflicts: If there are conflicting changes between branches, Git will highlight them. You’ll need to resolve these conflicts manually before completing the merge.
 
 5. After merging, you can delete the branch to keep the repository clean:
-git branch -d feature-branch-name
+`git branch -d feature-branch-name`
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
